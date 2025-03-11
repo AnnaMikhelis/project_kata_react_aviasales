@@ -1,0 +1,30 @@
+.FiltersList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.FiltersItem {
+  padding: 15px;
+  border: 1px solid #dfe5ec;
+  color: #4a4a4a;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.FiltersItem:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.FiltersItem:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.FiltersActive {
+  color: white;
+  background-color: #2196f3;
+}

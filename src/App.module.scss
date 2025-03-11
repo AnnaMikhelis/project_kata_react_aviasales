@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: rgb(231, 225, 225);
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.AppWrap {
+  display: flex;
+  justify-content: center;
+}
+
+.AppRight {
+  margin-left: 20px;
+}
