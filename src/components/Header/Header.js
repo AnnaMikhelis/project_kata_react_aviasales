@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './Header.module.scss';
-import logo from '../../../public/Logo.svg';
 const Header = () => {
   return (
     <div className={styles.Header}>
-      <img src={logo} alt="logo" />
+      <img src="/Logo.svg" alt="logo" />
     </div>
   );
 };
